@@ -1,0 +1,25 @@
+{
+  "name": "personal",
+  "description": "'个人网站'",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "lidan"
+  ],
+  "authors": [
+    "lidan"
+  ],
+  "license": "MIT",
+  "homepage": "http://lidan.site",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}

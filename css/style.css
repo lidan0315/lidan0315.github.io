@@ -1,0 +1,21 @@
+body {
+    font: normal 12px 'Helvetica Neue', helvetica, arial, sans-serif;
+    background: #fcfcfc url(../images/light_grunge.jpg) repeat;
+    color: #889397;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 0;
+}
+.adcenter{
+    width:960px;
+    height: 90px;
+    margin:0 auto;
+}
+#strip{
+    background: url(../images/check_strip.png) repeat-x 0 -15px;
+    height: 83px;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
