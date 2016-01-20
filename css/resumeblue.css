@@ -1,0 +1,128 @@
+
+body{
+    background:url(../images/rbimg/tm-bg-slide-1.jpg) no-repeat;
+    background-size: cover;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin:0;
+    border:0;
+    padding:0;
+    font-size:16px;
+}
+.bold{
+    font-weight:bold;
+}
+h2{
+    font-size: 36px;
+    padding-bottom: 14px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    padding-bottom: 6px;
+}
+p>i{
+    padding-right: 10px;
+}
+/*
+* 头部样式
+*/
+header{
+    padding:160px 0;
+    text-align: center;
+}
+header hr{
+    width: 110px;
+    border-top: 1px solid #3668af;
+}
+header h1{
+    color: #66CCFF;
+    text-shadow: 1px 1px #000;
+    font-size: 40px;
+}
+header h2{
+    color: #f1e9e9;
+    letter-spacing: 1px;
+    font-size: 40px;
+    padding-bottom: 0;
+}
+/*用户头像样式*/
+.userimg {
+    border-radius: 50%;
+    border: 6px solid #eee;
+    margin: 0 auto;
+}
+
+/*
+*中间内容样式
+*/
+.about,.skills,.education,.languages,.contact,.experiences{
+    padding:40px;
+    min-height: 330px;
+    margin-bottom: 30px;
+}
+.skills,.education,.experiences{
+    background: #3366CC;
+    color: #f5f5f5;
+}
+.about,.languages,.contact{
+    background-color: #fff;
+}
+article>h4{
+    color: #60A9F0;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+article>div{
+    margin-bottom: 10px;
+}
+article h5 {
+    font-size: 19px;
+    display: inline-block;
+    padding-right: 30px;
+}
+/*about style*/
+.accent {
+    line-height: 14px;
+    color: #60A9F0;
+}
+/*skills style*/
+.skills .progress {
+    border-radius: 0px;
+    height: 4px;
+    margin-top: 10px;
+}
+/*laguages style*/
+.languages ul{
+    padding-top:15px;
+    padding-left:10px;
+}
+
+/*footer style*/
+footer{
+    padding:100px 0;
+    text-align: center;
+    color: #fff;
+}
+.social-icons li{
+    display: inline-block;
+    list-style: none;
+    padding-top: 10px;
+    padding: 5px;
+}
+.social-icons li a {
+    width: 40px;
+    height: 40px;
+    background-color: #3366CC;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
