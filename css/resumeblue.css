@@ -2,7 +2,7 @@
 body{
     background:url(../images/rbimg/tm-bg-slide-1.jpg) no-repeat;
     background-size: cover;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:'Proxima';
     margin:0;
     border:0;
     padding:0;
@@ -46,6 +46,7 @@ header h2{
     letter-spacing: 1px;
     font-size: 40px;
     padding-bottom: 0;
+    text-shadow: 1px 1px #000;
 }
 /*用户头像样式*/
 .userimg {
@@ -88,10 +89,17 @@ article h5 {
     color: #60A9F0;
 }
 /*skills style*/
+.skills strong {
+    display: inline-block;
+    font-weight: normal;
+    padding-bottom: 6px;
+}
 .skills .progress {
     border-radius: 0px;
     height: 4px;
-    margin-top: 10px;
+}
+.skills .progress .progress-bar-primary {
+    background: #204090;
 }
 /*laguages style*/
 .languages ul{
