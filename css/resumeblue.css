@@ -1,7 +1,5 @@
 
 body{
-    background:url(../images/rbimg/tm-bg-slide-1.jpg) no-repeat;
-    background-size: cover;
     font-family:'Proxima';
     margin:0;
     border:0;
@@ -131,6 +129,21 @@ footer{
     text-decoration: none;
 }
 
+/*
+*±³¾°Í¼Æ¬
+*/
+.backstretch{
+    position: fixed;
+    top:0;
+    lefT:0;
+    margin:0;
+    padding:0;
+    z-index: -9999;
+}
+.backstretch img {
+    position: absolute;
+    top: -160px;
+}
 
 
 
