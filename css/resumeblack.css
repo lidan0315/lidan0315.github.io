@@ -58,10 +58,35 @@ header{
 }
 /* banner-text style */
 .banner-text {
-    width: 72%;
+    width: 70%;
     margin: 0 auto;
     text-align: center;
-    padding: 200px 0;
+    padding: 262px 0 200px 0;
+}
+header .banner-text h1 {
+    font: 90px/1.1em 'opensans-bold', sans-serif;
+    color: #fff;
+    letter-spacing: -2px;
+    margin: 0 auto 18px auto;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+}
+header .banner-text h3 {
+    width: 90%;
+    font: 18px/1.9em 'librebaskerville-regular', serif;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0 auto 18px auto;
+}
+h3 span{
+    color:#fff;
+    font-weight: 600;
+}
+h3 a{
+    color:#fff;
+    font-weight: 600;
+}
+.banner-text hr {
+    width: 75%;
+    border-top: 1px solid rgb(48, 42, 44);
 }
 .social{
     text-align: center;
