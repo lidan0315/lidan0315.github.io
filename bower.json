@@ -20,9 +20,8 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "~3.3.6",
-    "jquery-backstretch": "~2.0.4",
     "WebFont-OpenSans": "webfont-opensans#~0.0.2",
-    "librebaskerville-googlefont": "*"
+    "librebaskerville-googlefont": "*",
+    "fontello": "~5.2.0"
   }
 }
