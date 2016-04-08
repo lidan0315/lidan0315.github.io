@@ -360,7 +360,7 @@ span.bar-expand+em {
 
 /* popup modal */
 .popup-modal {
-    max-width: 550px;
+    max-width: 1000px;
     background: #fff;
     position: relative;
     margin: 0 auto;
