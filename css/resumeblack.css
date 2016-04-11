@@ -523,6 +523,9 @@ span.bar-expand+em {
     line-height: 18px;
     color: #fff;
 }
+#testimonials blockquote img{
+    margin-left:-6px;
+}
 
 /* flexslider */
 .flexslider {
