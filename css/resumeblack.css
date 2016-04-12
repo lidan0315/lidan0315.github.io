@@ -282,6 +282,9 @@ span.bar-expand+em {
     width:25%;
     margin-bottom: 36px;
 }
+.portfolio-item:first-child{
+    margin-bottom: 0;
+}
 .portfolio-item .item-wrap {
     background: #fff;
     overflow: hidden;
